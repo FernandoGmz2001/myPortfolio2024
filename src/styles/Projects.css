@@ -1,0 +1,22 @@
+.main-projects{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-block: 60px;
+}
+
+.projects-information{
+    width: 30ch;
+}
+
+.projects-information h4{
+    color: var(--clr-blue-400);
+}
+
+.projects-showcase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
