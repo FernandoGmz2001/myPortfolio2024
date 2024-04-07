@@ -14,15 +14,12 @@
      background-color: black;
   }
   50%{
-    width: 50%;
   }
   100% {
      backdrop-filter: blur(40px);
      background: #00000031;
      border: none;
      box-shadow: none;
-     width: 100%;
-     border-radius: 0px;
   }
 }
 
