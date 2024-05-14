@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import { motion } from "framer-motion";
 function Header() {
   return (
     <div className="main-header">
@@ -9,11 +10,10 @@ function Header() {
             <img src="/public/images/header/linkedin.png" alt="linkedin icon" />
             <img src="/public/images/header/facebook.png" alt="facebook icon" />
           </div>
-          <div className="header-information">
-            <h1>Desarrollador Full-Stack</h1>
+          <motion.div initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} className="header-information">
+            <h1>Desarrollador FrontEnd | Diseñador UI / UX</h1>
             <p>
-              Hola, soy Fernando Gómez. Un desarrollador apasionado en constante
-              crecimiento!
+              Hola, soy Fernando Gómez. Un desarrollador proactivo, apasionado y persistente, me gusta seguir buenas prácticas y mejorar cada día!
             </p>
             <div className="header-technologies">
                 <p>Tecnologias: </p>
@@ -26,11 +26,11 @@ function Header() {
                 <img src="../public/images/header/vue.png" alt="git" />
               </picture>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="header-right">
           <picture>
-            <img
+            <motion.img initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}}
               src="../public/images/header/profile-image.png"
               alt="profile-image"
             />
