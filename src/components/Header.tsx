@@ -18,12 +18,12 @@ function Header() {
             <div className="header-technologies">
                 <p>Tecnologias: </p>
               <picture className="technologies-container">
-                <img src="../public/images/header/figma.png" alt="figma" />
-                <img src="../public/images/header/react.png" alt="react" />
-                <img src="../public/images/header/sql.png" alt="sql" />
-                <img src="../public/images/header/tailwind.png" alt="tailwind" />
-                <img src="../public/images/header/git.png" alt="git" />
-                <img src="../public/images/header/vue.png" alt="git" />
+                <img src="/images/header/figma.png" alt="figma" />
+                <img src="/images/header/react.png" alt="react" />
+                <img src="/images/header/sql.png" alt="sql" />
+                <img src="/images/header/tailwind.png" alt="tailwind" />
+                <img src="/images/header/git.png" alt="git" />
+                <img src="/images/header/vue.png" alt="git" />
               </picture>
             </div>
           </motion.div>
@@ -31,7 +31,7 @@ function Header() {
         <div className="header-right">
           <picture>
             <motion.img initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}}
-              src="../public/images/header/profile-image.png"
+              src="/images/header/profile-image.png"
               alt="profile-image"
             />
           </picture>
