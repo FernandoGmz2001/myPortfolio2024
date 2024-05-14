@@ -14,7 +14,7 @@ function AboutMe() {
         </p>
       </div>
       <picture className="aboutMe-image">
-        <img src="/public/images/about-me/coding.png" alt="coding" />
+        <img src="/images/about-me/coding.png" alt="coding" />
       </picture>
     </main>
   );

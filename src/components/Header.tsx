@@ -6,9 +6,9 @@ function Header() {
       <header className="header">
         <div className="header-left">
           <div className="header-socials">
-            <img src="/public/images/header/github.png" alt="github icon" />
-            <img src="/public/images/header/linkedin.png" alt="linkedin icon" />
-            <img src="/public/images/header/facebook.png" alt="facebook icon" />
+            <img src="/images/header/github.png" alt="github icon" />
+            <img src="/images/header/linkedin.png" alt="linkedin icon" />
+            <img src="/images/header/facebook.png" alt="facebook icon" />
           </div>
           <motion.div initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} className="header-information">
             <h1>Desarrollador FrontEnd | Diseñador UI / UX</h1>

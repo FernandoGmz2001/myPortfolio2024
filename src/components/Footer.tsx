@@ -10,7 +10,7 @@ function Footer() {
           <div className="contact">
             <div>
               <picture className="footer-image">
-                <img src="/public/images/header/github.png" alt="github" />
+                <img src="/images/header/github.png" alt="github" />
               </picture>
             </div>
             <div>
@@ -21,7 +21,7 @@ function Footer() {
           <div className="contact">
             <div>
               <picture className="footer-image">
-                <img src="/public/images/header/linkedin.png" alt="linkedin" />
+                <img src="/images/header/linkedin.png" alt="linkedin" />
               </picture>
             </div>
             <div>

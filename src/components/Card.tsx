@@ -19,7 +19,7 @@ function Card(props: Card) {
         <div className="card-links"></div>
         <picture className="project-picture">
           <img
-            src={`/public/images/projects/${props.image}.png`}
+            src={`/images/projects/${props.image}.png`}
             alt={props.image}
           />
         </picture>
